@@ -1,1 +1,268 @@
-Hello World
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Profesional</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        /* Encabezado */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #3498db;
+        }
+        
+        .name-title h1 {
+            margin: 0;
+            color: #2c3e50;
+            font-size: 2.2em;
+        }
+        
+        .name-title h2 {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+            color: #7f8c8d;
+            font-weight: normal;
+        }
+        
+        .contact-info {
+            text-align: right;
+        }
+        
+        /* Secciones */
+        .section {
+            margin-bottom: 25px;
+        }
+        
+        .section-title {
+            color: #3498db;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        
+        /* Experiencia laboral */
+        .job {
+            margin-bottom: 20px;
+        }
+        
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+        
+        .job-title {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        
+        .job-date {
+            color: #7f8c8d;
+        }
+        
+        .company {
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+        
+        /* Educación */
+        .education {
+            margin-bottom: 15px;
+        }
+        
+        .education-header {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        /* Habilidades */
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .skill-category {
+            flex: 1;
+            min-width: 200px;
+            margin-right: 20px;
+        }
+        
+        .skill-category:last-child {
+            margin-right: 0;
+        }
+        
+        .skill-item {
+            margin-bottom: 8px;
+        }
+        
+        .skill-name {
+            display: inline-block;
+            width: 120px;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .contact-info {
+                text-align: center;
+                margin-top: 15px;
+            }
+            
+            .job-header, .education-header {
+                flex-direction: column;
+            }
+            
+            .job-date, .education-date {
+                margin-top: 5px;
+            }
+            
+            .skills-container {
+                flex-direction: column;
+            }
+            
+            .skill-category {
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="name-title">
+            <h1>Derick Martinez</h1>
+            <h2>Customer Service Agent/ RTA Experience</h2>
+        </div>
+        <div class="contact-info">
+            <div>✉️ derickm@ejemplo.com</div>
+            <div>📱 +123 456 7890</div>
+            <div>📍 Guatemala city, Guatemala</div>
+            <div>🔗 linkedin.com/tuperfil</div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h3 class="section-title">PROFESSIONAL PROFILE</h3>
+        <p>Four years of experience in the BPO industry performing the positions of customer service agent and (RTA) Real-time analyst through different lines of business. </p>
+    </div>
+    
+    <div class="section">
+        <h3 class="section-title">WORK EXPERIENCE</h3>
+        
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Customer Service Rep.</span>
+                <span class="job-date">May. 2020 - Oct. 2021</span>
+            </div>
+            <div class="company">247.ai Guatemala, Guatemala City</div>
+            <ul>
+                <li>Real Time Guidance</li>
+                <li>Report Construction and enhancement</li>
+                <li>Data Analysis, Client and Operations Team communications and schedule construction</li>
+            </ul>
+        </div>
+        
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Process Associate</span>
+                <span class="job-date">April. 2023 - July. 2023</span>
+            </div>
+            <div class="company">Genpact Guatemala , Guatemala City</div>
+            <ul>
+                <li>Tech Support for Car dealership.</li>
+
+            </ul>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h3 class="section-title">EDUCATION</h3>
+        
+        <div class="education">
+            <div class="education-header">
+                <span class="degree">High School Diploma</span>
+                <span class="education-date">2017 - 2018</span>
+            </div>
+            <div class="institution">Escuela Normal central para Varones, Guatemala City</div>
+        </div>
+        
+        <div class="education">
+            <div class="education-header">
+                <span class="degree">English Course- Midway 3 Diploma (640 hours completed)</span>
+                <span class="education-date">2019</span>
+            </div>
+            <div class="institution">INTECAP, Guatemala City</div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h3 class="section-title">SKILLS</h3>
+        
+        <div class="skills-container">
+            <div class="skill-category">
+                <h4>Técnicas</h4>
+                <div class="skill-item">
+                    <span class="skill-name">Habilidad 1</span>
+                    <span>★★★★☆</span>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Habilidad 2</span>
+                    <span>★★★☆☆</span>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Habilidad 3</span>
+                    <span>★★★★★</span>
+                </div>
+            </div>
+            
+            <div class="skill-category">
+                <h4>Idiomas</h4>
+                <div class="skill-item">
+                    <span class="skill-name">Español</span>
+                    <span>Nativo</span>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Inglés</span>
+                    <span>Avanzado (C1)</span>
+                </div>
+            </div>
+            
+            <div class="skill-category">
+                <h4>Blandas</h4>
+                <div class="skill-item">Trabajo en equipo</div>
+                <div class="skill-item">Comunicación efectiva</div>
+                <div class="skill-item">Resolución de problemas</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h3 class="section-title">LOGROS Y CERTIFICACIONES</h3>
+        <ul>
+            <li>Certificación relevante - Institución (Año)</li>
+            <li>Premio o reconocimiento profesional (Año)</li>
+            <li>Publicaciones o proyectos destacados</li>
+        </ul>
+    </div>
+</body>
+</html>
